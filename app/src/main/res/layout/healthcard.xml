@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="@dimen/space_5dp"
+    android:layout_marginTop="@dimen/space_5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+
+
+                >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginRight="65dp"
+           android:fontFamily="@font/josefinsans_semibold"
+           android:textColor="@color/colorAccent2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:id="@+id/packagename"
+           android:gravity="center_vertical"
+           android:layout_marginBottom="2dp"
+           android:textAlignment="center"
+           android:layout_alignParentBottom="false"
+           android:layout_centerHorizontal="false"
+
+           android:text="Package Name"></TextView>
+       <TextView
+           android:layout_marginRight="65dp"
+           android:layout_marginLeft="10dp"
+           android:fontFamily="@font/josefinsans_semibold"
+           android:textColor="#2c3e50"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="17dp"
+           android:textStyle="bold"
+           android:id="@+id/packagetime"
+           android:gravity="center_vertical"
+           android:layout_marginBottom="2dp"
+           android:textAlignment="center"
+           android:layout_alignParentBottom="false"
+           android:layout_centerHorizontal="false"
+
+           android:text="Package Time"></TextView>
+       <TextView
+           android:layout_marginLeft="10dp"
+           android:fontFamily="@font/josefinsans_semibold"
+           android:textColor="@color/black"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="8dp"
+           android:textStyle="bold"
+           android:id="@+id/whoes"
+           android:visibility="invisible"
+           android:gravity="center_vertical"
+           android:layout_marginBottom="2dp"
+           android:textAlignment="center"
+           android:layout_alignParentBottom="false"
+           android:layout_centerHorizontal="false"
+
+           android:text="For Whom"></TextView>
+   </LinearLayout>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+android:id="@+id/imafes"
+        android:layout_marginTop="@dimen/space_20dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gas"></ImageView>
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="65dp"
+    android:layout_marginBottom="5dp"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.core.widget.NestedScrollView
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:textColor="#b92b27"
+                android:gravity="center"
+                android:text="fdgdf"
+                android:hint="Notification Details"
+
+
+                android:id="@+id/blog_detail_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/circular_std_book"
+
+                android:textAlignment="center"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+</LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+
+                            android:layout_width="0dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <Button
+                                android:text="Visit Our Website"
+                                android:id="@+id/makerules"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/allbus"
+                                ></Button>
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:layout_width="0dp"
+
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <Button
+
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="Call Now"
+
+                                android:drawableLeft="@drawable/ic_baseline_call_24"
+                                android:id="@+id/bloas"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/ww"
+                                ></Button>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "16155665524",
+    "firebase_url": "https://namaztime-9c601-default-rtdb.firebaseio.com",
+    "project_id": "namaztime-9c601",
+    "storage_bucket": "namaztime-9c601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16155665524:android:05cd78caafc9e0f4941d21",
+        "android_client_info": {
+          "package_name": "com.meass.gasstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF7r2DvlcLTnVZ-VdF8L6cMqr-sWlfHzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16155665524:android:823a9b23996d377a941d21",
+        "android_client_info": {
+          "package_name": "com.messas.namazadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF7r2DvlcLTnVZ-VdF8L6cMqr-sWlfHzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16155665524:android:c22813000f13915b941d21",
+        "android_client_info": {
+          "package_name": "com.messas.namaztime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16155665524-12j2r3268hv0pne3p1592412c6tku7t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.messas.namaztime",
+            "certificate_hash": "488c4accd948cd55ffad93aedf67bb75a4713a96"
+          }
+        },
+        {
+          "client_id": "16155665524-9pcid47d2330gag2k4l5bfructi02g5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.messas.namaztime",
+            "certificate_hash": "40bc5e4893286d1671e429b3db853a17ddc019ad"
+          }
+        },
+        {
+          "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF7r2DvlcLTnVZ-VdF8L6cMqr-sWlfHzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16155665524-nvhd6jbi5ud4jp52tjdvl77afd9ovrhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImage"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/person"
+
+
+                    app:civ_border_color="@color/com6"
+                    app:civ_border_width="2dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/name_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    android:text="Name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="11dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:background="@color/com6"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/nameTv"
+                    android:layout_marginTop="11dp"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/toolbar1"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/namfeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Phone"
+                    android:textAlignment="center"
+                    android:textColor="@color/toolbar1"
+                    android:textSize="15dp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <View android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_width_small"
+                    android:background="@color/grey_light"
+                    android:layout_marginTop="30dp"/>
+                <LinearLayout
+                    android:id="@+id/pinupgrade"
+                    android:layout_marginRight="21dp"
+                    android:layout_marginLeft="21dp"
+                    android:background="@color/com6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/password2"/>
+
+                    <TextView
+                        android:id="@+id/emailview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        style="@style/fonts"
+                        android:text="Change password\nUpdate your password "
+                        android:textColor="#fff"/>
+
+                </LinearLayout>
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_width_small"
+                    android:visibility="gone"
+                    android:background="@color/grey_light"
+                    android:layout_marginTop="2dp"/>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/upgradetrans"
+                    android:layout_marginRight="21dp"
+                    android:layout_marginLeft="21dp"
+                    android:background="@color/com6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/password2"/>
+
+                    <TextView
+                        android:id="@+id/mobileview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="30dp"
+                        style="@style/fonts"
+                        android:text="Change password\nUpdate account pin "
+                        android:textColor="#fff"/>
+
+                </LinearLayout>
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_width_small"
+                    android:background="@color/grey_light"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

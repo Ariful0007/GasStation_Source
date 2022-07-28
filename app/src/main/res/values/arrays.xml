@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="examples">
+        <item>Good Courses</item>
+        <item>Best Teachers</item>
+        <item>Experience Mentors</item>
+
+    </string-array>
+    //
+    <string-array name="payment">
+        <item>Select Payment Method</item>
+        <item>Bkash</item>
+        <item>Rocket</item>
+        <item>Nagad</item>
+
+    </string-array>
+    <string-array name="others"
+        >
+        <item>জমা</item>
+        <item>খরচ</item>
+    </string-array>
+<string-array name="banking">
+    <item>ব্যাংকে জমা</item>
+    <item>ব্যাক থেকে উত্তোলন</item>
+</string-array>
+    <string-array name="radio_buttons">
+        <item>Bkash</item>
+        <item>Nagad</item>
+        <item>Rocket</item>
+        <item>Tether</item>
+        <item>Cardano</item>
+        <item>Dai</item>
+        <item>ChainLink</item>
+        <item>Omg Network</item>
+        <item>basic Attention Token</item>
+        <item>Tron</item>
+        <item>Stellar</item>
+        <item>BitShares</item>
+        <item>Visa</item>
+        <item>MosterCard</item>
+        <item>MoneyGo</item>
+        <item>Skrill</item>
+        <item>Skrill 1-tap</item>
+        <item>AstroPay</item>
+        <item>Perfect Money</item>
+        <item>Bitcoin</item>
+        <item>LiteCoin</item>
+        <item>Zcash</item>
+    </string-array>
+    <!-- Reply Preference -->
+
+    //
+    //
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdatePinActivity">
+    <RelativeLayout
+
+        android:id="@+id/main_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/gradient_background"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/allofus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:gravity="center_vertical"
+                android:text="Old PIN"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+
+
+                ></TextView>
+            <EditText
+                android:id="@+id/spinner1"
+                android:maxLength="11"
+                android:hint="      Enter old pin"
+                android:background="@drawable/border"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:inputType="numberDecimal"
+                android:layout_marginRight="@dimen/space_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                ></EditText>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/textammount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:gravity="center_vertical"
+                android:text="Pin checking"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:textColor="@color/newColor"
+
+
+                ></TextView>
+
+            //
+
+            //
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:gravity="center_vertical"
+                android:text="New PIN"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+
+
+                ></TextView>
+            <EditText
+                android:maxLength="11"
+                android:id="@+id/transcationpin"
+                android:hint="      Enter  new  pin"
+                android:background="@drawable/border"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:inputType="text"
+                android:layout_marginRight="@dimen/space_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                ></EditText>
+            <Button
+                android:id="@+id/cirLoginButton"
+                style="@style/loginButton"
+                android:text="SUBMIT"
+                android:textAllCaps="true"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <TextView
+                android:id="@+id/showing"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:gravity="center_vertical"
+                android:text="Income Balance : 102tk"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/red_connectify"
+
+
+                ></TextView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

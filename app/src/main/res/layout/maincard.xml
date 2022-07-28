@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="@dimen/space_5dp"
+    android:layout_marginTop="@dimen/space_5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+
+                >
+
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/customer_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/josefinsans_semibold"
+
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Market Cap"
+                        android:textAlignment="center"
+                        android:layout_centerVertical="false"
+                        android:textColor="@color/md_red_700"
+                        android:textSize="12dp"></TextView>
+<RelativeLayout
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/customer_name"
+    android:background="@drawable/main_bg"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="20dp"
+    >
+    <TextView
+        android:layout_margin="10dp"
+
+        android:visibility="visible"
+        android:textAlignment="center"
+
+        android:layout_alignParentRight="false"
+        android:id="@+id/customer_number10"
+        android:layout_centerVertical="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="34% of crypto market"
+
+
+
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginRight="80dp"
+
+        android:textAllCaps="false"
+        android:textColor="@color/md_pink_800"
+        android:textSize="12dp"></TextView>
+
+</RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/logout10"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:text="BDT 66.2 Trillion"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+
+                        android:textAllCaps="false"
+                        android:textColor="@color/md_pink_800"
+                        android:textSize="10dp"></TextView>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

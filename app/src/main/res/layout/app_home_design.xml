@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout     android:background="#cfd8dc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeACTIVITY"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="5dp"
+        android:background="#cfd8dc"
+        android:layout_marginLeft="5dp"
+
+        app:titleTextColor="#004D40"
+        app:title="@string/app_name"
+
+        app:titleMarginStart="20dp"
+        app:navigationIcon="@drawable/ic_baseline_menu_24"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImag2e"
+                android:onClick="logout"
+                android:layout_alignParentRight="true"
+                android:layout_width="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="40dp"
+                android:src="@drawable/profileimage"
+
+                android:layout_marginEnd="8dp"
+                app:civ_border_color="#656464"
+                app:civ_border_width="0dp" />
+            <LinearLayout
+
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="0dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="40dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+
+
+                                android:textColor="@color/black"
+
+
+                                android:textSize="15dp"
+
+
+                                android:gravity="center_vertical"
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+android:fontFamily="@font/josefinsans_semibold"
+                                android:layout_marginBottom="5dp"
+                                android:textAlignment="center"
+
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/app_name"
+                                android:padding="2dp"
+                                android:background="@drawable/dashmain"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:visibility="gone"
+
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <TextView
+
+                                android:textColor="@color/white"
+
+
+                                android:textSize="12dp"
+
+                                android:gravity="start"
+
+
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+
+                                android:layout_marginBottom="5dp"
+                                android:textAlignment="viewStart"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="0dp"
+                                android:text=" Earning : $12.34"
+                                android:padding="2dp"
+                                android:background="@drawable/dashmain"
+                                ></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/space_10dp"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="false"
+                    android:padding="8dp"
+                    android:id="@+id/dollarrate"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="12dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/heading"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Gas Station List"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

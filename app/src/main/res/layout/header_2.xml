@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".HomeACTIVITY"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+       android:layout_marginBottom="20dp"
+        android:background="@drawable/gas">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/forgot_pass"
+            android:textColor="@color/toolbar"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="false"
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:enabled="true"
+            style="@style/fonts"/>
+    </RelativeLayout>
+</LinearLayout>
