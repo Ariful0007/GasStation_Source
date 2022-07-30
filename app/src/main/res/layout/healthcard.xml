@@ -65,7 +65,7 @@
            android:layout_marginRight="65dp"
            android:layout_marginLeft="10dp"
            android:fontFamily="@font/josefinsans_semibold"
-           android:textColor="#2c3e50"
+           android:textColor="#168E16"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:textSize="17dp"
@@ -140,7 +140,7 @@ android:id="@+id/imafes"
                 android:fontFamily="@font/circular_std_book"
 
                 android:textAlignment="center"
-                android:textSize="15dp"
+                android:textSize="17dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -160,6 +160,7 @@ android:id="@+id/imafes"
                         android:orientation="horizontal"
                         >
                         <LinearLayout
+                            android:id="@+id/llll"
 
                             android:layout_width="0dp"
 

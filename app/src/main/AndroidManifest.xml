@@ -16,8 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Add_NewMosque"
-            android:parentActivityName=".HomeACTIVITY"></activity>
+        <activity android:name=".Add_New"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Add_NewMosque"
+            android:parentActivityName=".HomeACTIVITY" />
         <activity
             android:name=".UpdatePinActivity"
             android:parentActivityName=".ProfileActivity" />

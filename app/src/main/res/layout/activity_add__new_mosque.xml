@@ -285,7 +285,7 @@
                 android:layout_marginTop="@dimen/space_10dp"
                 android:layout_marginRight="@dimen/space_10dp"
                 android:gravity="center_vertical"
-                android:text="Website /Social Media Link :*"
+                android:text="Website /Social Media Link :"
                 android:textStyle="normal"
                 android:textAlignment="viewStart"
                 android:textColor="@color/black"
@@ -300,6 +300,36 @@
                 android:layout_marginLeft="20dp"
                 android:textColor="@color/black"
                 android:textSize="15dp"
+                android:inputType="text"
+                android:layout_marginRight="@dimen/space_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                ></EditText>
+            //
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:gravity="center_vertical"
+                android:text="Conversation Center : *"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+
+
+                ></TextView>
+            <EditText
+
+                android:id="@+id/conn"
+                android:hint="Yes/No"
+                android:background="@drawable/border"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:maxLength="3"
                 android:inputType="text"
                 android:layout_marginRight="@dimen/space_20dp"
                 android:layout_width="match_parent"
@@ -338,7 +368,7 @@
             <Button
                 android:id="@+id/cirLoginButton"
                 style="@style/loginButton"
-                android:text="Add Mosque"
+                android:text="Add Pump"
                 android:textAllCaps="true"
                 android:layout_marginBottom="100dp"
 

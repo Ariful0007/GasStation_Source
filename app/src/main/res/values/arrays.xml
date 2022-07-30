@@ -2,9 +2,8 @@
 <resources>
     <!-- Reply Preference -->
     <string-array name="examples">
-        <item>Good Courses</item>
-        <item>Best Teachers</item>
-        <item>Experience Mentors</item>
+        <item>Yes</item>
+        <item>No</item>
 
     </string-array>
     //

@@ -178,7 +178,7 @@ android:fontFamily="@font/josefinsans_semibold"
                     android:textColor="@color/white"
                     android:background="@drawable/heading"
                     android:fontFamily="@font/open_sans_bold"
-                    android:text="Gas Station List"
+                    android:text="Filling Station List"
                     android:gravity="center_horizontal" />
             </LinearLayout>
             <FrameLayout

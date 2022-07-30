@@ -51,7 +51,7 @@
                     android:maxLength="50"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Username"
+                    android:hint="Enter PhoneNumber"
                     android:inputType="text"
                     android:textColorHint="@color/white"
                     android:textColor="#34495e"/>
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
 
 
@@ -141,6 +141,17 @@
                     android:text="Sign Up "
 
                     android:onClick="register"
+                    android:backgroundTint="@color/white"
+                    />
+//
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/register_w"
+                    android:text="Add My Pump "
+
+                    android:onClick="mypump"
                     android:backgroundTint="@color/white"
                     />
 

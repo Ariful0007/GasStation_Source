@@ -303,4 +303,8 @@ public class LoginActivity extends AppCompatActivity {
                 .show();
 
     }
+
+    public void mypump(View view) {
+        startActivity(new Intent(getApplicationContext(),Add_New.class));
+    }
 }

@@ -173,7 +173,7 @@ public class Register2 extends AppCompatActivity {
                                 dialog.dismiss();
                                 progress_check();
                                 firebaseFirestore.collection("BlockList")
-                                        .document(username.getText().toString().toLowerCase() + "@gmail.com")
+                                        .document(edtnumber.getText().toString().toLowerCase() + "@gmail.com")
                                         .get()
                                         .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
                                             @Override
@@ -185,7 +185,7 @@ public class Register2 extends AppCompatActivity {
                                                     }
                                                     else {
                                                         firebaseFirestore.collection("Name_Exsiting")
-                                                                .document(username.getText().toString().toLowerCase())
+                                                                .document(edtnumber.getText().toString().toLowerCase())
                                                                 .get()
                                                                 .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
                                                                     @Override
@@ -214,7 +214,7 @@ public class Register2 extends AppCompatActivity {
                                                                                                     if (task.getResult().exists()) {
 
                                                                                                         //Toast.makeText(RegistrationActivity.this, "make", Toast.LENGTH_SHORT).show();
-                                                                                                        mAuth.createUserWithEmailAndPassword(username.getText().toString().toLowerCase() + "@gmail.com", "123456")
+                                                                                                        mAuth.createUserWithEmailAndPassword(edtnumber.getText().toString().toLowerCase() + "@gmail.com", "123456")
                                                                                                                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                                                                                                     @Override
                                                                                                                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -235,10 +235,10 @@ public class Register2 extends AppCompatActivity {
                                                                                                                                         }
                                                                                                                                     });
 
-                                                                                                                            Name_Exsiting name_exsiting = new Name_Exsiting(username.getText().toString().toLowerCase(),
-                                                                                                                                    username.getText().toString());
+                                                                                                                            Name_Exsiting name_exsiting = new Name_Exsiting(edtnumber.getText().toString().toLowerCase(),
+                                                                                                                                    edtnumber.getText().toString());
                                                                                                                             firebaseFirestore.collection("Name_Exsiting")
-                                                                                                                                    .document(username.getText().toString().toLowerCase())
+                                                                                                                                    .document(edtnumber.getText().toString().toLowerCase())
                                                                                                                                     .set(name_exsiting)
                                                                                                                                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                                                                                                                                         @Override
@@ -498,9 +498,9 @@ public class Register2 extends AppCompatActivity {
                                                                             if (task.isSuccessful()) {
                                                                                 Map<String, String> userMap1 = new HashMap<>();
 
-                                                                                userMap1.put("username", username.getText().toString().toLowerCase());
+                                                                                userMap1.put("username", edtnumber.getText().toString().toLowerCase());
                                                                                 firebaseFirestore.collection("Old_User")
-                                                                                        .document(username.getText().toString().toLowerCase())
+                                                                                        .document(edtnumber.getText().toString().toLowerCase())
                                                                                         .set(userMap1)
                                                                                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                                                                                             @Override

@@ -21,11 +21,13 @@
             android:layout_marginTop="@dimen/loginViewsMargin"/>
         <com.google.android.material.textfield.TextInputLayout
             style="@style/parent"
+            android:visibility="gone"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
                 style="@style/modifiedEditText"
                 android:inputType="text"
                 android:maxLines="1"
+                android:text="user"
                 android:textColor="@color/black"
                 android:id="@+id/username"
                 android:hint="Username"/>
@@ -66,11 +68,13 @@
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             style="@style/parent"
+            android:visibility="gone"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
+                android:text="fgfdg"
                 android:id="@+id/whatsapp"
                 android:hint="Enter Whatsapp Number"/>
         </com.google.android.material.textfield.TextInputLayout>

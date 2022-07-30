@@ -59,7 +59,8 @@ holder.packagetime.setText("Owner Name : "+data.get(position).getLocation());
                     "Address : "+data.get(position).getSunrise()+" , "+data.get(position).getJahor()+"\n" +
                     "Permission No : "+data.get(position).getAsor()+"\n" +
                     ""+data.get(position).getMagrib()+" ( Office )"+"\n" +
-                    ""+data.get(position).getEsha()+ " ( Manager )\n");
+                    ""+data.get(position).getEsha()+ " ( Manager )\n" +
+                    "Conversation Center : "+data.get(position).getDatetime());
 
         }
         else {
@@ -68,8 +69,16 @@ holder.packagetime.setText("Owner Name : "+data.get(position).getLocation());
                     "Permission No : "+data.get(position).getAsor()+"\n" +
                     ""+data.get(position).getMagrib()+" ( Office )"+"\n" +
                     ""+data.get(position).getEsha()+ " ( Manager )\n" +
+                    "Conversation Center : "+data.get(position).getDatetime()+"\n"+
                     "Note : "+data.get(position).getSunset());
 
+        }
+        String jumma=data.get(position).getJumma();
+        if (jumma.equals("not set")) {
+            holder.llll.setVisibility(View.GONE);
+        }
+        else {
+            holder.llll.setVisibility(View.VISIBLE);
         }
         holder.makerules.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,6 +109,7 @@ holder.packagetime.setText("Owner Name : "+data.get(position).getLocation());
         CardView card_view8;
         ImageView image;
         Button makerules,bloas;
+        LinearLayout llll;
         public myview(@NonNull View itemView) {
             super(itemView);
             packagename=itemView.findViewById(R.id.packagename);
@@ -110,6 +120,7 @@ holder.packagetime.setText("Owner Name : "+data.get(position).getLocation());
             card_view8=itemView.findViewById(R.id.card_view8);
             makerules=itemView.findViewById(R.id.makerules);
             bloas=itemView.findViewById(R.id.bloas);
+            llll=itemView.findViewById(R.id.llll);
 
 
 
